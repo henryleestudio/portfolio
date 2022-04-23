@@ -1,0 +1,540 @@
+* {
+  box-sizing: border-box;
+}
+
+/* color pallet: #55CAF4 cestial blue
+                 #060809 dark grey
+                 #FF000A red */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  background-color: #060809;
+  color: white;
+}
+
+.border {
+  border: 1px solid white;
+}
+
+.rule {
+  border: .25px;
+}
+
+header {
+  margin-top: -10px;
+  height: 520px;
+  background-image: url(../img/website-banner-2.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 820px; */
+  /* background-size: contain; */
+  /* background-size: 105%; */
+  background-size: 87%;
+  /* background-size: 95%; */
+  background-position-x: -20px;
+}
+
+.logo {
+  position: absolute;
+  width: 55px;
+  top: 21px;
+  left: 130px;
+}
+
+#profileImg {
+  background-image: url(../img/profile-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #55CAF4;
+  width: 290px;
+  height: 370px;
+  position: absolute;
+  top: 118px;
+  left: 145px;
+}
+
+#name {
+  position: absolute;
+  top: 488px;
+  left: 290px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#headerTxt {
+  position: absolute;
+  font-weight: 400;
+  left: 519px;
+  top: 228px;
+}
+
+#siteTitle {
+  font-size: 3rem;
+  position: relative;
+  left: 40px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#tagLine li {
+  list-style: none;
+  float: left;
+  /* position: relative;
+  left: 249px; */
+  margin-right: 13px;
+  border-right: 1px solid white;
+  padding-right: 16px;
+  font-size: 2rem;
+}
+
+#socialLinks {
+  float: right;
+  list-style: none;
+  font-size: 2.95rem;
+  position: fixed;
+  top: 112px;
+  right: 60px;
+}
+
+.fa-brands {
+  text-decoration: none;
+  font-size: 2.6rem;
+  margin-bottom: 15px;
+}
+
+/* This is for the menu option at the bottom of the page #menu
+
+nav li {
+  list-style: none;
+  float: left;
+}
+
+This is for the menu option at the bottom of the page #menu {
+  position: relative;
+  top: 342px;
+  left: 338px;
+} */
+
+.menu {
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+.menu li {
+  text-decoration: none;
+}
+
+a:visited #socialLinks li {
+  color: white;
+}  
+a:hover #socialLinks li {
+  color: white;
+}
+a:active #socialLinks {
+  color: white;
+}
+
+.menu button {
+  margin-bottom: 8px;
+}
+
+#tagLine #lastTag {
+  border: none; 
+}
+
+#connectBut {
+  font-size: 2rem;
+  margin-top: 14px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  padding: 5% 12% 5% 12%;
+  position: relative;
+  top: -3px;
+}
+
+.colorOverlay {
+  background: #55CAF4;
+  opacity: .3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#aboutImg {
+  border: 1px solid #55CAF4;
+  width: 680px;
+  height: 396px;
+  position: absolute;
+  top: 800px;
+  left: 585px;
+  background-image: url(../img/team.JPG);
+  background-size: cover;
+}
+
+#aboutTxtBack {
+  width: 770px;
+  position: relative;
+  top: -20px;
+  left: 276px;
+  padding: 0.1% 1% 0.1% 1%;
+  z-index: 10;
+  /* border-radius: 2px; */
+  /* background-color: rgb(85 202 244 / 23%); */
+}
+
+.about p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+
+#quoteSec p {
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-style: italic;
+  width: 34%;
+  position: relative;
+  line-height: 77px;
+  top: 10px;
+  left: 181px;
+  z-index: 20;
+}
+
+#quoteOne {
+  font-size: 12rem;
+  position: absolute;
+  top: 690px;
+  left: 109px;
+  font-style: italic;
+  font-family: 'Spirax', cursive;
+}
+
+#quoteTwo {
+  font-size: 12rem;
+  position: absolute;
+  top: 1077px;
+  left: 410px;
+  font-style: italic;
+  font-family: 'Spirax', cursive;
+}
+
+#theArtwearGallery {
+  position: relative;
+  width: 765px;
+  top: 3.4rem;
+  left: 40.5rem;
+}
+
+#theArtwearGallery p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+
+#theArtwearGalleryMainImg {
+  background-image: url(../img/aw-bbc-1.png);
+  height: 615px;
+  width: 1071px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 57px;
+  left: 190px;
+  border: 1px solid;
+}
+
+#titleOne {
+  background-color: #55CAF4;
+  position: relative;
+  top: -45px;
+  left: 500px;
+  display: inline;
+  font-size: 1.9rem;
+  padding: 0.1%;
+}
+
+#shortDisOne {
+  background-color: #55CAF4;
+  position: relative;
+  top: -81px;
+  left: 438px;
+  width: 212px;
+  height: 80px;
+  padding: 1%;
+  z-index: 10;
+}
+
+#protfolioTitle {
+  color: #55CAF4;
+  font-size: 2.8rem;
+  position: relative;
+  top: 120px;
+  left: 404.2px;
+  font-weight: 300;
+}
+
+#ruleOne {
+  border-bottom: solid white;
+  position: relative;
+  top: 78px;
+  left: -100px;
+  width: 410px;
+  /* Below is for rule not going all the way to the end
+  left: 56px;
+  width: 290px; */
+}
+
+/* #PortfolioImgOne {
+  border: 1px solid white;
+  width: 500px;
+  height: 300px;
+  background-image: url(../img/fashion-4.jpg);
+  position: absolute;
+  top: 839px;
+  left: 142px;
+} */
+
+#featuredSecOne {
+  position: relative;
+}
+
+#featOneTxtBack {
+  width: 374px;
+  background-color: #55caf4ba;
+  position: relative;
+  top: 280px;
+  left: 470px;
+  padding: 0.1% 1% 0.1% 1%;
+  border-radius: 2px;
+}
+
+#featTwoTxtBack {
+  width: 374px;
+  background-color: #55caf4ba;
+  position: relative;
+  top: 490px;
+  left: 270px;
+  padding: 0.1% 1% 0.1% 1%;
+  border-radius: 2px;
+}
+
+/* #featuredImgOne {
+  
+  width: 420px;
+  height: 280px;
+  position: absolute;
+  top: 165px;
+  left: 685px;
+  background-image: url(../img/venture-mockups.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position-y: -57px;
+  background-position-x: -11px;
+} */
+
+/* #featuredImgTwo {
+  border: 1px solid white;
+  width: 420px;
+  height: 280px;
+  position: absolute;
+  top: 2630px;
+  left: 142px;
+} */
+
+#featImgOne {
+  top: 48px;
+  position: absolute;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgTwo {
+  position: absolute;
+  top: 2630px;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgThree {
+  position: absolute;
+  top: 3129px;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgThree {
+  position: absolute;
+  top: 3129px;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgFour {
+  position: absolute;
+  top: 3639px;
+  width: 700px;
+  left: 323px;
+}
+
+.portfolioThumb {
+  border: 1px solid white;
+  width: 225px;
+  height: 200px;
+  float: left;
+  margin-left: 60px;
+}
+
+#connectRule {
+  margin-top: 1168px;
+  border-bottom: solid white;
+  position: relative;
+  top: 78px;
+  left: -100px;
+  width: 410px;
+}
+
+#portfolioTitleTwo {
+  color: #55CAF4;
+  font-size: 1.8rem;
+  position: relative;
+  top: -30px;
+  left: 331px;
+}
+
+#connect {
+  position: relative;
+  top: 2000px;
+}
+
+.connectSec {
+  margin-top: 70px;
+  margin-left: 32px;
+  position: relative;
+  left: 375px;
+}
+
+.rule {
+  color: #55CAF4;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+#connectTitle {
+  color: #55CAF4;
+  font-size: 2.8rem;
+  position: relative;
+  left: 404.2px;
+  font-weight: 300;
+  top: 29px;
+}
+
+#interestTitle {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+/* #55CAF4 cestial blue
+#060809 dark grey
+#FF000A red  */
+
+input {
+  padding: 1%;
+  font-size: 1.5rem;
+  background: #060809;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}
+
+form {
+  margin-bottom: 2px;
+  color: white;
+}
+
+#firstNameInput {
+  float: left;
+  margin-right: 10px;
+  width: 195px;
+}
+
+#lastNameInput {
+  width: 195px;
+}
+
+.longInput {
+  width: 400px;
+}
+
+.subjectInput {
+  width: 300px;
+}
+
+.messageInput {
+  width: 400px;
+  height: 200px;
+}
+
+.connectSec input {
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 200px;
+}
+
+h5 {
+  position: relative;
+  right: 316px;
+  top: 22px;
+  float: right;
+  font-size: 1.2rem;
+}
+
+#footerLogo {
+  width: 55px;
+  width: 55px;
+  position: relative;
+  top: 70px;
+  left: 130px;
+}
+
+footer ul {
+  position: relative;
+  right: 70px;
+}
+
+footer li {
+  float: right;
+  list-style: none;
+  margin-right: 10px;
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+footer #lastTag {
+  border: none;
+}
+
+.connectSec button {
+  padding: 1% 2% 1% 2%;
+  font-size: 2rem;
+  color: white;
+  background: #060809;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+#portfolio span {
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
