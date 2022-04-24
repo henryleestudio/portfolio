@@ -104,6 +104,7 @@ header {
   text-decoration: none;
   font-size: 2.6rem;
   margin-bottom: 15px;
+  color: white;
 }
 
 /* This is for the menu option at the bottom of the page #menu
@@ -129,14 +130,22 @@ This is for the menu option at the bottom of the page #menu {
   text-decoration: none;
 }
 
-a:visited #socialLinks li {
+li a:link {
   color: white;
-}  
-a:hover #socialLinks li {
-  color: white;
+  text-decoration: none;
 }
-a:active #socialLinks {
+
+.menu a:visited {
   color: white;
+  text-decoration: none;
+}  
+.menu a:hover {
+  color: white;
+  text-decoration: none;
+}
+.menu a:active {
+  color: white;
+  text-decoration: none;
 }
 
 .menu button {
@@ -371,16 +380,16 @@ a:active #socialLinks {
   left: 323px;
 }
 
-#featImgThree {
+#featImgFour {
   position: absolute;
-  top: 3129px;
+  top: 3639px;
   width: 700px;
   left: 323px;
 }
 
-#featImgFour {
+#featImgFive {
   position: absolute;
-  top: 3639px;
+  top: 4146px;
   width: 700px;
   left: 323px;
 }
@@ -412,7 +421,7 @@ a:active #socialLinks {
 
 #connect {
   position: relative;
-  top: 2000px;
+  top: 1430px;
 }
 
 .connectSec {
