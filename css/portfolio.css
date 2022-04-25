@@ -371,10 +371,6 @@ li a:link {
   margin-top: 10px;
 }
 
-/* #55CAF4 cestial blue
-#060809 dark grey
-#FF000A red  */
-
 input {
   padding: 1%;
   font-size: 1.5rem;
@@ -568,3 +564,4 @@ footer #lastTag {
   left: 323px;
 }
 
+/* @media all and (min-width = ) */
