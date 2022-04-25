@@ -327,24 +327,17 @@ li a:link {
 }
 
 #connectRule {
-  margin-top: 1168px;
   border-bottom: solid white;
-  position: relative;
-  top: 78px;
-  left: -100px;
   width: 410px;
 }
 
 #connect {
-  position: relative;
-  top: 93.2rem;
+  margin-top: 10rem;
 }
 
 .connectSec {
   margin-top: 70px;
   margin-left: 32px;
-  position: relative;
-  left: 375px;
 }
 
 .rule {
@@ -355,10 +348,7 @@ li a:link {
 #connectTitle {
   color: #55CAF4;
   font-size: 2.8rem;
-  position: relative;
-  left: 404.2px;
   font-weight: 300;
-  top: 29px;
 }
 
 #interestTitle {
