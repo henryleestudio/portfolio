@@ -287,7 +287,7 @@ li a:link {
   color: #55CAF4;
   font-size: 2.8rem;
   margin-top: 180px;
-  margin-left: 404.2px;
+  /* margin-left: 404.2px; */
   font-weight: 300;
   display: inline;
 }
@@ -295,7 +295,7 @@ li a:link {
 #ruleOne {
   margin-left: 0rem;
   margin-top: -1.7rem;
-  width: 59rem;
+  width: 42rem;
 }
 
 #featOneTxtBack {
@@ -455,7 +455,8 @@ footer #lastTag {
 
 .projectTitle {
   /* position: relative; */
-  margin-left: 40.5rem;
+  margin-top: 100px;
+  margin-left: -18.5rem;
   font-size: 3rem;
   font-weight: 400;
   color: white;
@@ -470,6 +471,9 @@ footer #lastTag {
   letter-spacing: 0.1rem;
   color: white;
   text-align: left;
+  margin: auto;
+  margin-top: 1.7rem;
+  margin-left: 34.4rem;
 }
 
 #projectOneTitle {
@@ -477,13 +481,12 @@ footer #lastTag {
 }
 
 #projectOneDescription {
-  top: 51.3rem;
-  margin-bottom: 10px;
+  margin-top: 1.7rem;
   margin-left: 34.4rem;
 }
 
 #projectTwoTitle {
-  top: 530px;
+  margin-top: 100px;
 }
 
 #projectTwoDescription {
