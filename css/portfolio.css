@@ -302,20 +302,6 @@ li a:link {
   width: 290px; */
 }
 
-/* #PortfolioImgOne {
-  border: 1px solid white;
-  width: 500px;
-  height: 300px;
-  background-image: url(../img/fashion-4.jpg);
-  position: absolute;
-  top: 839px;
-  left: 142px;
-} */
-
-#featuredSecOne {
-  position: relative;
-}
-
 #featOneTxtBack {
   width: 374px;
   background-color: #55caf4ba;
@@ -336,64 +322,6 @@ li a:link {
   border-radius: 2px;
 }
 
-/* #featuredImgOne {
-  
-  width: 420px;
-  height: 280px;
-  position: absolute;
-  top: 165px;
-  left: 685px;
-  background-image: url(../img/venture-mockups.png);
-  background-size: 110%;
-  background-repeat: no-repeat;
-  background-position-y: -57px;
-  background-position-x: -11px;
-} */
-
-/* #featuredImgTwo {
-  border: 1px solid white;
-  width: 420px;
-  height: 280px;
-  position: absolute;
-  top: 2630px;
-  left: 142px;
-} */
-
-#featImgOne {
-  top: 48px;
-  position: absolute;
-  width: 700px;
-  left: 323px;
-}
-
-#featImgTwo {
-  position: absolute;
-  top: 2630px;
-  width: 700px;
-  left: 323px;
-}
-
-#featImgThree {
-  position: absolute;
-  top: 3129px;
-  width: 700px;
-  left: 323px;
-}
-
-#featImgFour {
-  position: absolute;
-  top: 3639px;
-  width: 700px;
-  left: 323px;
-}
-
-#featImgFive {
-  position: absolute;
-  top: 4146px;
-  width: 700px;
-  left: 323px;
-}
-
 .portfolioThumb {
   border: 1px solid white;
   width: 225px;
@@ -411,17 +339,9 @@ li a:link {
   width: 410px;
 }
 
-#portfolioTitleTwo {
-  color: #55CAF4;
-  font-size: 1.8rem;
-  position: relative;
-  top: -30px;
-  left: 331px;
-}
-
 #connect {
   position: relative;
-  top: 1430px;
+  top: 93.2rem;
 }
 
 .connectSec {
@@ -547,3 +467,104 @@ footer #lastTag {
   font-weight: 400;
   
 }
+
+#projectOneSec {
+  position: relative;
+}
+
+.projectTitle {
+  position: relative;
+  left: 408px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  display: inline;
+}
+
+.projectDescription {
+  position: relative;
+  width: 765px;
+  left: 40.5rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  color: white;
+  /* color:#55CAF4; */
+}
+
+#projectOneTitle {
+  top: 111px;
+}
+
+#projectOneDescription {
+  top: 51.3rem;
+}
+
+#projectTwoTitle {
+  top: 530px;
+}
+
+#projectTwoDescription {
+  top: 92.1rem;
+}
+
+#projectThreeTitle {
+  top: 92.5rem;
+}
+
+#projectThreeDescription {
+  top: 131.2rem;
+}
+
+#projectFourTitle {
+  top: 131.7rem;
+}
+
+#projectFourDescription {
+  top: 170.4rem;
+}
+
+#projectFiveTitle {
+  top: 170.5rem;
+}
+
+#projectFiveDescription {
+  top: 212.8rem;
+}
+
+#featImgOne {
+  top: 5.3rem;
+  position: absolute;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgTwo {
+  position: absolute;
+  top: 280rem;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgThree {
+  position: absolute;
+  top: 340rem;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgFour {
+  position: absolute;
+  top: 399.7rem;
+  width: 700px;
+  left: 323px;
+}
+
+#featImgFive {
+  position: absolute;
+  top: 464.9rem;
+  width: 700px;
+  left: 323px;
+}
+
