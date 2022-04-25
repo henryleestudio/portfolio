@@ -21,21 +21,23 @@ body {
   border: 1px solid white;
 }
 
-.rule {
-  border: .25px;
-}
 
 header {
-  margin-top: -10px;
+      width: 100%;
+}
+
+/* header {
   height: 520px;
-  background-image: url(../img/website-banner-2.jpg);
+  background-image: url(../img/portfolio-header-banner.jpg);
   background-repeat: no-repeat;
-  /* background-size: 820px; */
-  /* background-size: contain; */
-  /* background-size: 105%; */
   background-size: 87%;
-  /* background-size: 95%; */
   background-position-x: -20px;
+  padding-top: 40px;
+  margin-bottom: 190px;
+} */
+
+#headerBackgroundImg {
+  width: 85%;
 }
 
 .logo {
@@ -52,9 +54,10 @@ header {
   border: 1px solid #55CAF4;
   width: 290px;
   height: 370px;
+  margin-left: 125px;
   position: absolute;
-  top: 118px;
-  left: 145px;
+  left: -2px;
+  top: 48px;
 }
 
 #name {
@@ -66,10 +69,9 @@ header {
 }
 
 #headerTxt {
-  position: absolute;
   font-weight: 400;
-  left: 519px;
-  top: 228px;
+  margin-left: 480px;
+  margin-top: -256px;
 }
 
 #siteTitle {
@@ -78,13 +80,13 @@ header {
   left: 40px;
   font-weight: 500;
   font-style: italic;
+  display: inline;
 }
 
 #tagLine li {
   list-style: none;
   float: left;
-  /* position: relative;
-  left: 249px; */
+  position: relative;
   margin-right: 13px;
   border-right: 1px solid white;
   padding-right: 16px;
@@ -170,7 +172,7 @@ li a:link {
 .colorOverlay {
   background: #55CAF4;
   opacity: .3;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -178,27 +180,23 @@ li a:link {
 
 #aboutImg {
   border: 1px solid #55CAF4;
-  width: 680px;
+  width: 598px;
   height: 396px;
-  position: absolute;
-  top: 800px;
-  left: 585px;
+  margin-left: 46.5rem;
+  margin-top: -54rem;
   background-image: url(../img/team.JPG);
   background-size: cover;
 }
 
-#aboutTxtBack {
+#aboutTxtBlock {
   width: 770px;
-  position: relative;
-  top: -20px;
-  left: 276px;
   padding: 0.1% 1% 0.1% 1%;
-  z-index: 10;
-  /* border-radius: 2px; */
-  /* background-color: rgb(85 202 244 / 23%); */
+  z-index: 1;
+  margin-left: -273px;
+  margin-top: 149px;
 }
 
-.about p {
+#aboutTxtBlock p {
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-style: italic;
@@ -209,37 +207,35 @@ li a:link {
   font-size: 4.5rem;
   font-weight: 400;
   font-style: italic;
-  width: 34%;
-  position: relative;
+  width: 49rem;
   line-height: 77px;
-  top: 10px;
-  left: 181px;
-  z-index: 20;
+  z-index: 5;
+  margin-left: 90px;
+  margin-top: 90px;
 }
 
 #quoteOne {
   font-size: 12rem;
-  position: absolute;
-  top: 690px;
-  left: 109px;
   font-style: italic;
   font-family: 'Spirax', cursive;
+  float: left;
+  margin-left: 31px;
+  margin-top: -30px;
 }
 
 #quoteTwo {
   font-size: 12rem;
-  position: absolute;
-  top: 1077px;
-  left: 410px;
+  position: relative;
+  top: -14rem;
+  left: 32rem;
   font-style: italic;
   font-family: 'Spirax', cursive;
 }
 
 #theArtwearGallery {
-  position: relative;
-  width: 765px;
-  top: 3.4rem;
-  left: 40.5rem;
+  width: 912px;
+  margin-top: 3rem;
+  margin-left: 21.7rem;
 }
 
 #theArtwearGallery p {
@@ -251,13 +247,13 @@ li a:link {
 
 #theArtwearGalleryMainImg {
   background-image: url(../img/aw-bbc-1.png);
-  height: 615px;
-  width: 1071px;
+  height: 345px;
+  width: 601px;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  top: 57px;
-  left: 190px;
+  top: 16px;
+  left: 290px;
   border: 1px solid;
 }
 
@@ -282,24 +278,24 @@ li a:link {
   z-index: 10;
 }
 
-#protfolioTitle {
+#portfolio {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+#portfolioTitle {
   color: #55CAF4;
   font-size: 2.8rem;
-  position: relative;
-  top: 120px;
-  left: 404.2px;
+  margin-top: 180px;
+  margin-left: 404.2px;
   font-weight: 300;
+  display: inline;
 }
 
 #ruleOne {
-  border-bottom: solid white;
-  position: relative;
-  top: 78px;
-  left: -100px;
-  width: 410px;
-  /* Below is for rule not going all the way to the end
-  left: 56px;
-  width: 290px; */
+  margin-left: 0rem;
+  margin-top: -1.7rem;
+  width: 59rem;
 }
 
 #featOneTxtBack {
@@ -352,9 +348,8 @@ li a:link {
 }
 
 .rule {
-  color: #55CAF4;
-  font-size: 1.8rem;
-  font-weight: 300;
+  border-bottom: .25px solid white;
+
 }
 
 #connectTitle {
@@ -469,32 +464,32 @@ footer #lastTag {
 }
 
 .projectTitle {
-  position: relative;
-  left: 408px;
+  /* position: relative; */
+  margin-left: 40.5rem;
   font-size: 3rem;
   font-weight: 400;
   color: white;
-  display: inline;
+  /* display: inline; */
 }
 
 .projectDescription {
-  position: relative;
   width: 765px;
-  left: 40.5rem;
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-style: italic;
   letter-spacing: 0.1rem;
   color: white;
-  /* color:#55CAF4; */
+  text-align: left;
 }
 
 #projectOneTitle {
-  top: 111px;
+  margin-top: 5rem;
 }
 
 #projectOneDescription {
   top: 51.3rem;
+  margin-bottom: 10px;
+  margin-left: 34.4rem;
 }
 
 #projectTwoTitle {
@@ -531,37 +526,35 @@ footer #lastTag {
 
 #featImgOne {
   top: 5.3rem;
-  position: absolute;
-  width: 700px;
-  left: 323px;
+  width: 90rem;
 }
 
 #featImgTwo {
-  position: absolute;
+  /* position: absolute; */
   top: 280rem;
-  width: 700px;
-  left: 323px;
+  width: 90rem;
 }
 
 #featImgThree {
-  position: absolute;
+  /* position: absolute; */
   top: 340rem;
-  width: 700px;
-  left: 323px;
+  width: 90rem;
 }
 
 #featImgFour {
-  position: absolute;
+  /* position: absolute; */
   top: 399.7rem;
-  width: 700px;
-  left: 323px;
+  width: 90rem;
 }
 
 #featImgFive {
-  position: absolute;
+  /* position: absolute; */
   top: 464.9rem;
-  width: 700px;
-  left: 323px;
+  width: 90rem;
+}
+
+.projectTxtBox {
+  display: inline;
 }
 
 /* @media all and (min-width = ) */
