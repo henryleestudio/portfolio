@@ -327,7 +327,6 @@ li a:link {
 }
 
 #connectRule {
-  border-bottom: solid white;
   width: 410px;
 }
 
@@ -343,7 +342,6 @@ li a:link {
 
 .rule {
   border-bottom: .25px solid white;
-
 }
 
 #connectTitle {
