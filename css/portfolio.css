@@ -333,6 +333,7 @@ li a:link {
 
 #connect {
   margin-top: 10rem;
+  text-align: center;
 }
 
 .connectSec {
@@ -372,12 +373,13 @@ form {
 
 #firstNameInput {
   float: left;
-  margin-right: 10px;
+  margin-left: 50.3rem;
   width: 195px;
 }
 
 #lastNameInput {
   width: 195px;
+  margin-left: -49.6rem;
 }
 
 .longInput {
@@ -386,6 +388,7 @@ form {
 
 .subjectInput {
   width: 300px;
+  margin-left: -10rem;
 }
 
 .messageInput {
@@ -395,10 +398,6 @@ form {
 
 .connectSec input {
   margin-bottom: 10px;
-}
-
-footer {
-  height: 200px;
 }
 
 h5 {
@@ -441,6 +440,7 @@ footer #lastTag {
   background: #060809;
   border: 1px solid white;
   border-radius: 3px;
+  margin-left: -30rem;
 }
 
 #portfolio span {
@@ -548,6 +548,19 @@ footer #lastTag {
 
 .projectTxtBox {
   display: inline;
+}
+
+.secTitle {
+    color: #55CAF4;
+    font-size: 2.8rem;
+    margin-top: 180px;
+    /* margin-left: 404.2px; */
+    font-weight: 300;
+    display: inline;
+}
+
+footer {
+  height: 10rem;
 }
 
 /* @media all and (min-width = ) */
