@@ -215,6 +215,7 @@ li a:link {
   z-index: 5;
   margin-left: 90px;
   margin-top: 90px;
+  position: relative;
 }
 
 #quoteOne {
@@ -224,6 +225,7 @@ li a:link {
   float: left;
   margin-left: 31px;
   margin-top: -30px;
+  position: relative;
 }
 
 #quoteTwo {
@@ -233,6 +235,7 @@ li a:link {
   left: 32rem;
   font-style: italic;
   font-family: 'Spirax', cursive;
+  z-index: 5;
 }
 
 #theArtwearGallery {
@@ -718,20 +721,29 @@ li {
 
 @media (max-width:1000px) {
   
+  #headerBackgroundImg {
+    width: 100%;
+}
+
   #siteTitle {
     left: -33rem;
     font-weight: 400;
     display: inline;
+    font-size: 5.5rem;
 }
 
   #tagLine {
     margin-left: -37.1rem;
 }
 
+  #tagLine li {
+    font-size: 2.25rem;
+  }
+
   #headerTxt {
     font-weight: 400;
     margin-left: 480px;
-    margin-top: -417px;
+    margin-top: -347px;
 }
 
   #aboutTxtBlock {
@@ -740,23 +752,124 @@ li {
     margin-left: -32rem;
 }
 
-#profileImg {
-  background-image: url(../img/profile-pic.jpg);
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #55CAF4;
-  width: 290px;
-  height: 370px;
-  margin-left: 125px;
-  position: absolute;
-  left: -2px;
-  top: 16rem;
-  border-radius: 4px;
-}
-  
+  #profileImg {
+    background-image: url(../img/profile-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #55CAF4;
+    width: 652px;
+    height: 760px;
+    margin-left: 125px;
+    /* position: absolute; */
+    left: -2px;
+    top: 22rem;
+    border-radius: 4px;
+  }
+
+  #aboutImg {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #theArtwearGallery {
+    width: 81rem;
+  }
+
+  #theArtwearGallery p {
+    margin-left: -16rem;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .colorOverlay {
+    opacity: 0.65;
+  }
+
+  #quoteSec p {
+    width: 74rem;
+  }
+
+  .projectDescription {
+    margin-left: 6rem;
+  }
+
+  #projectOneDescription {
+    margin-left: 4rem;
+  }
+
+  #aboutTxtBlock {
+    margin-top: 96rem;
+  }
+
+  #aboutTxtBlock p {
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.3rem;
+    width: 81rem;
+    margin-left: -1rem;
+  }
+
+  header {
+    height: 143rem;
+  }
+ 
+  #quoteSec {
+    position: relative;
+    top: -16rem;
+  }
+
+  #quoteOne {
+    z-index: 2;
+  }
+
+  #quoteTwo {
+    left: 50rem;
+  }
+
+  #aboutImg {
+    margin-top: -75rem;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background: #55CAF4;
+    width: 100%;
+    text-align: center;
+    /* transition: 0.3s; */
+  }
+
+.nav-item {
+  margin: 16px 0;
 }
 
-
+.nav-menu.active {
+  left: 0;
+}
+}
 
 
 /* color pallet: #55CAF4 cestial blue
