@@ -15,6 +15,7 @@ body {
   margin: 0px;
   background-color: #060809;
   color: white;
+  /* position: relative; */
 }
 
 .border {
@@ -24,7 +25,9 @@ body {
 
 header {
       width: 100%;
+      height: 70rem;
 }
+
 
 /* header {
   height: 520px;
@@ -37,7 +40,7 @@ header {
 } */
 
 #headerBackgroundImg {
-  width: 85%;
+  width: 121rem;
 }
 
 .logo {
@@ -58,6 +61,7 @@ header {
   position: absolute;
   left: -2px;
   top: 48px;
+  border-radius: 4px;
 }
 
 #name {
@@ -75,11 +79,11 @@ header {
 }
 
 #siteTitle {
-  font-size: 3rem;
+  font-size: 3.5rem;
   position: relative;
   left: 40px;
-  font-weight: 500;
-  font-style: italic;
+  font-weight: 400;
+  font-style: normal;
   display: inline;
 }
 
@@ -189,11 +193,10 @@ li a:link {
 }
 
 #aboutTxtBlock {
-  width: 770px;
-  padding: 0.1% 1% 0.1% 1%;
+  width: 75rem;
   z-index: 1;
   margin-left: -273px;
-  margin-top: 149px;
+  margin-top: 200px;
 }
 
 #aboutTxtBlock p {
@@ -233,7 +236,7 @@ li a:link {
 }
 
 #theArtwearGallery {
-  width: 912px;
+  width: 87rem;
   margin-top: 3rem;
   margin-left: 21.7rem;
 }
@@ -292,7 +295,7 @@ li a:link {
   display: inline;
 }
 
-#ruleOne {
+#portfolioRule {
   margin-left: 0rem;
   margin-top: -1.7rem;
   width: 42rem;
@@ -462,7 +465,7 @@ footer #lastTag {
 }
 
 .projectDescription {
-  width: 765px;
+  width: 75rem;
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-style: italic;
@@ -561,4 +564,201 @@ footer {
   height: 10rem;
 }
 
-/* @media all and (min-width = ) */
+/* New navigation  */
+
+.nav-header {
+  position: fixed;
+  top: 680px;
+  width: 100%;
+  /* background: white; */
+}
+
+li {
+  list-style: none;
+}
+
+.nav-container {
+  width: 1600px;
+  margin: auto;
+}
+
+.nav-container a {
+  color: #55CAF4;
+  /* font-size: 1rem; */
+  text-decoration: none;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: white; */
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  /* color: #55CAF4; */
+  left: 524px;
+  position: absolute;
+  /* border: 1px solid; */
+  padding: 7px 14px 7px 14px;
+  font-size: 1.80rem;
+  background: #060809c7;
+  border-radius: 4px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: #55caf4a3;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: -100px;
+}
+
+.bar {
+  display: block;
+  width: 23px;
+  height: 5px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+  background: white;
+  font-size: 1.80rem;
+  border-radius: 4px;
+}
+
+@media(max-width: 1600px) {
+  .nav-container {
+    width: 100%;
+  }
+}
+
+@media(max-width:1420px) {
+  #portfolioRule, #connectRule {
+    width: 29rem;
+  }
+}
+
+@media(max-width:1280px) {
+  .hamburger{
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background: #55CAF4;
+    width: 100%;
+    text-align: center;
+    /* transition: 0.3s; */
+  }
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+}
+
+@media(max-width:1158px) {
+
+  html {
+    font-size: 56.5%;
+}
+
+#headerTxt {
+  margin-left: 416px;
+}
+
+#aboutTxtBlock {
+  margin-top: 282px;
+  width: 85.2rem;
+}
+
+#aboutTxtBlock p {
+  font-size: 1.9rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.2rem;
+}
+}
+
+@media (max-width:1000px) {
+  
+  #siteTitle {
+    left: -33rem;
+    font-weight: 400;
+    display: inline;
+}
+
+  #tagLine {
+    margin-left: -37.1rem;
+}
+
+  #headerTxt {
+    font-weight: 400;
+    margin-left: 480px;
+    margin-top: -417px;
+}
+
+  #aboutTxtBlock {
+    margin-top: 52rem;
+    width: 55.2rem;
+    margin-left: -32rem;
+}
+
+#profileImg {
+  background-image: url(../img/profile-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #55CAF4;
+  width: 290px;
+  height: 370px;
+  margin-left: 125px;
+  position: absolute;
+  left: -2px;
+  top: 16rem;
+  border-radius: 4px;
+}
+  
+}
+
+
+
+
+/* color pallet: #55CAF4 cestial blue
+                 #060809 dark grey
+                 #FF000A red */
