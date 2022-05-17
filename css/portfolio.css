@@ -61,7 +61,7 @@ header {
   position: absolute;
   left: -2px;
   top: 48px;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 
 #name {
@@ -179,7 +179,7 @@ li a:link {
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  /* z-index: -1; */
 }
 
 #aboutImg {
@@ -188,8 +188,9 @@ li a:link {
   height: 396px;
   margin-left: 46.5rem;
   margin-top: -54rem;
-  background-image: url(../img/team.JPG);
+  background-image: url(../img/team-color.JPG);
   background-size: cover;
+  border-radius: 1px;
 }
 
 #aboutTxtBlock {
@@ -214,8 +215,8 @@ li a:link {
   line-height: 77px;
   z-index: 5;
   margin-left: 90px;
-  margin-top: 90px;
-  position: relative;
+  margin-top: -6rem;
+  /* position: relative; */
 }
 
 #quoteOne {
@@ -231,8 +232,8 @@ li a:link {
 #quoteTwo {
   font-size: 12rem;
   position: relative;
-  top: -14rem;
-  left: 32rem;
+  top: -15rem;
+  left: 33rem;
   font-style: italic;
   font-family: 'Spirax', cursive;
   z-index: 5;
@@ -285,23 +286,11 @@ li a:link {
 }
 
 #portfolio {
-  padding-top: 4rem;
   text-align: center;
 }
 
-#portfolioTitle {
-  color: #55CAF4;
-  font-size: 2.8rem;
-  margin-top: 180px;
-  /* margin-left: 404.2px; */
-  font-weight: 300;
-  display: inline;
-}
-
 #portfolioRule {
-  margin-left: 0rem;
-  margin-top: -1.7rem;
-  width: 42rem;
+  margin-top: -2.9rem;
 }
 
 #featOneTxtBack {
@@ -333,7 +322,7 @@ li a:link {
 }
 
 #connectRule {
-  width: 410px;
+  margin-top: -3.2rem;
 }
 
 #connect {
@@ -342,18 +331,24 @@ li a:link {
 }
 
 .connectSec {
-  margin-top: 70px;
+  margin-top: 33px;
   margin-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectSec button {
+  padding: 1.7% 0.2% 1.7% 0.2%;
+  color: white;
+  background: #060809;
+  border: 1px solid white;
+  border-radius: 1px;
+  width: 10rem;
 }
 
 .rule {
   border-bottom: .25px solid white;
-}
-
-#connectTitle {
-  color: #55CAF4;
-  font-size: 2.8rem;
-  font-weight: 300;
 }
 
 #interestTitle {
@@ -361,38 +356,32 @@ li a:link {
   margin-top: 10px;
 }
 
-input {
-  padding: 1%;
-  font-size: 1.5rem;
+input, select, textarea {
+  padding: 3%;
+  font-size: 1.6rem;
   background: #060809;
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 1px;
   color: white;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 form {
   margin-bottom: 2px;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
-#firstNameInput {
+/* #firstNameInput {
   float: left;
   margin-left: 50.3rem;
   width: 195px;
-}
-
-#lastNameInput {
-  width: 195px;
-  margin-left: -49.6rem;
-}
-
-.longInput {
-  width: 400px;
-}
+} */
 
 .subjectInput {
   width: 300px;
-  margin-left: -10rem;
 }
 
 .messageInput {
@@ -400,8 +389,9 @@ form {
   height: 200px;
 }
 
-.connectSec input {
-  margin-bottom: 10px;
+.input {
+  width: 484px;
+  margin-bottom: 1.5rem;
 }
 
 h5 {
@@ -437,34 +427,21 @@ footer #lastTag {
   border: none;
 }
 
-.connectSec button {
-  padding: 1% 2% 1% 2%;
-  font-size: 2rem;
-  color: white;
-  background: #060809;
-  border: 1px solid white;
-  border-radius: 3px;
-  margin-left: -30rem;
-}
-
 #portfolio span {
   font-size: 1rem;
   font-weight: 400;
-  
 }
 
-#projectOneSec {
+/* #projectOneSec {
   position: relative;
-}
+} */
 
 .projectTitle {
-  /* position: relative; */
-  margin-top: 100px;
+  margin-top: 3rem;
   margin-left: -18.5rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: white;
-  /* display: inline; */
 }
 
 .projectDescription {
@@ -477,16 +454,12 @@ footer #lastTag {
   text-align: left;
   margin: auto;
   margin-top: 1.7rem;
-  margin-left: 34.4rem;
-}
-
-#projectOneTitle {
-  margin-top: 5rem;
+  /* margin-left: 34.4rem; */
 }
 
 #projectOneDescription {
   margin-top: 1.7rem;
-  margin-left: 34.4rem;
+  /* margin-left: 34.4rem; */
 }
 
 #projectTwoTitle {
@@ -570,10 +543,12 @@ footer {
 /* New navigation  */
 
 .nav-header {
-  position: fixed;
+  /* position: fixed; */
   top: 680px;
   width: 100%;
-  /* background: white; */
+  z-index: 5;
+  /* opacity: 0.9; */
+  /* height: 100px; */
 }
 
 li {
@@ -586,7 +561,7 @@ li {
 }
 
 .nav-container a {
-  color: #55CAF4;
+  color: #ffffff;
   /* font-size: 1rem; */
   text-decoration: none;
 }
@@ -598,7 +573,7 @@ li {
 
 .navbar {
   width: 100%;
-  min-height: 30px;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -606,8 +581,9 @@ li {
 }
 
 .nav-menu {
+  display: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 60px;
   /* color: #55CAF4; */
   left: 524px;
@@ -629,8 +605,9 @@ li {
   cursor: pointer;
   background: #55caf4a3;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 1px;
   margin-top: -100px;
+  z-index: 5;
 }
 
 .bar {
@@ -644,20 +621,62 @@ li {
   border-radius: 4px;
 }
 
+.rule {
+  display: block;
+  margin-left: 10.5rem;
+  width: 10rem;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.copyRight {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.about {
+  margin-top: 15rem;
+}
+
+.title {
+  color: #55CAF4;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 6rem;
+  margin-left: -8.2rem;
+  text-align: center;
+}
+
+#connectTitle {
+  margin-left: -285px;
+}
+
 @media(max-width: 1600px) {
   .nav-container {
     width: 100%;
   }
 }
 
+/* header {
+  margin-top: -628px;
+} */
+
 @media(max-width:1420px) {
-  #portfolioRule, #connectRule {
+  /* #portfolioRule, #connectRule {
     width: 29rem;
-  }
+  } */
 }
 
 @media(max-width:1280px) {
   .hamburger{
+    display: block;
+  }
+
+  .nav-menu {
     display: block;
   }
 
@@ -670,7 +689,7 @@ li {
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(12px) rotate(45deg);
   }
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
@@ -679,12 +698,13 @@ li {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 0px;
     gap: 0;
     flex-direction: column;
-    background: #55CAF4;
+    background: #000000;
     width: 100%;
     text-align: center;
+    margin: 0px;
     /* transition: 0.3s; */
   }
 
@@ -694,6 +714,14 @@ li {
 
 .nav-menu.active {
   left: 0;
+  height: 100vh;
+  text-align: left;
+  padding-top: 7rem;
+  padding-left: 25%;
+}
+
+#connectBut {
+  padding: 1% 1% 1% 1%;
 }
 }
 
@@ -742,8 +770,8 @@ li {
 
   #headerTxt {
     font-weight: 400;
-    margin-left: 480px;
-    margin-top: -347px;
+    position: absolute;
+    top: 303px;
 }
 
   #aboutTxtBlock {
@@ -771,9 +799,9 @@ li {
     margin-left: 0px;
   }
 
-  #theArtwearGallery {
+  /* #theArtwearGallery {
     width: 81rem;
-  }
+  } */
 
   #theArtwearGallery p {
     margin-left: -16rem;
@@ -790,16 +818,8 @@ li {
     width: 74rem;
   }
 
-  .projectDescription {
-    margin-left: 6rem;
-  }
-
-  #projectOneDescription {
-    margin-left: 4rem;
-  }
-
   #aboutTxtBlock {
-    margin-top: 96rem;
+    margin-top: 98.4rem;
   }
 
   #aboutTxtBlock p {
@@ -813,11 +833,6 @@ li {
   header {
     height: 143rem;
   }
- 
-  #quoteSec {
-    position: relative;
-    top: -16rem;
-  }
 
   #quoteOne {
     z-index: 2;
@@ -828,47 +843,120 @@ li {
   }
 
   #aboutImg {
-    margin-top: -75rem;
+    margin-top: -60.2rem;
   }
-
-  .hamburger{
-    display: block;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background: #55CAF4;
-    width: 100%;
-    text-align: center;
-    /* transition: 0.3s; */
-  }
-
-.nav-item {
-  margin: 16px 0;
 }
 
-.nav-menu.active {
-  left: 0;
+@media (max-width:1000px) {
+  #profileImg{
+    width: 480px;
+    height: 550px;
+    margin-top: -7.4rem;
+  }
+
+  #quoteOne {
+    margin-top: 10px;
+  }
+
+  #quoteTwo {
+    left: 41rem;
+    top: -11.9rem;
+  }
+
+  #tagLine li {
+    font-size: 1.75rem;
+  }
+
+  #siteTitle {
+    font-size: 3.5rem;
+  }
+
+  #aboutTxtBlock {
+    margin-top: 68.7rem;
+  }
+
+  #aboutTxtBlock p {
+    width: 56rem;
+  }
+
+  .about {
+    margin-top: -41rem;
+  }
+
+  #quoteSec p {
+    width: 63rem;
+    top: 3rem;
+    position: relative;
+  }
+
+  #aboutImg {
+    margin-top: -60.2rem;
+  }
+
+  #theArtwearGallery {
+    width: 50rem;
+  }
+
+  .rule {
+    margin-left: 10.5rem;
+  }
+
+  #portfolio .featImg {
+    width: 60rem;
+  }
+
+  .projectDescription {
+  width: 70rem;
+  }
 }
+
+@media (max-width:697px) {
+  #profileImg{
+    width: 480px;
+    height: 550px;
+    margin-top: -7.4rem;
+  }
+
+  #tagLine li {
+    font-size: 1.75rem;
+  }
+
+  #siteTitle {
+    font-size: 3.5rem;
+  }
+
+  #aboutTxtBlock {
+    margin-top: 68.7rem;
+  }
+
+  #aboutTxtBlock p {
+    width: 57rem;
+  }
+
+  .about {
+    margin-top: -41rem;
+  }
+
+  #quoteSec p {
+    width: 63rem;
+  }
+
+  #aboutImg {
+    margin-top: -60.2rem;
+  }
+
+
+  .rule {
+    margin-left: 5.7rem;
+  }
+
+  #portfolio .featImg {
+    width: 60rem;
+  }
+
+  .projectDescription {
+    width: 57rem;
+  }
 }
 
 
