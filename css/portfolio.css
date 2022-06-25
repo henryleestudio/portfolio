@@ -197,7 +197,7 @@ li a:link {
   width: 75rem;
   z-index: 1;
   margin-left: -273px;
-  margin-top: 200px;
+  margin-top: 13.8rem;
 }
 
 #aboutTxtBlock p {
@@ -701,7 +701,7 @@ li {
     top: 0px;
     gap: 0;
     flex-direction: column;
-    background: #000000;
+    background: #000000b8;
     width: 100%;
     text-align: center;
     margin: 0px;
@@ -736,7 +736,7 @@ li {
 }
 
 #aboutTxtBlock {
-  margin-top: 282px;
+  margin-top: 21.8rem;
   width: 85.2rem;
 }
 
