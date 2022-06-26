@@ -160,7 +160,7 @@
       gain exposure, and earn an income. 
       <br><br>
       He led a team of 13+ creative professionals in efforts to build the brand,
-      market the art // fashion products, and build out the e-commerce platform.</p>
+      market the art & fashion products, and build out the e-commerce platform.</p>
   </Section>
 
   <!-- <section id="theArtwearGalleryMainImg" alt="The Artwear Gallery Page"></section> -->
@@ -286,25 +286,29 @@
 
     <section class="connectSec">
 
-      <form onsubmit="sendEmail(); reset(); return false;">
+      <form action="https://formsubmit.co/contact@henrylee.studio" method="POST">
         <select class="input" name="interest" placeholder="interested in">
           <option value="Software Engineer">Inquring about: Hiring a Software Engineer?</option>
           <option value="Creative Diretion">Booking a Creative Direction session</option>
           <option value="Creative Diretion">Other</option>
         </select>
         
-        <input class="input" name="name" type="text" placeholder="name">
+        <input class="input" name="name" type="text" placeholder="name" reqiured>
   
         <input class="input" name="company" type="text" placeholder="company">
 
-        <input class="input" name="email" type="text" placeholder="email">
+        <input class="input" name="email" type="text" placeholder="email" reqiured>
 
         <input class="input" class="subjectInput" type="text" placeholder="subject">
 
         <textarea class="input" class="messageInput" placeholder="message" name="message" id="" cols="30"
-          rows="10"></textarea>
+          rows="10" reqiured></textarea>
 
         <button class="submitBut" type="submit" name="submit" value="submit">Send</button>
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- <input type="hidden" name="_next" value="https://henrylee.studio/thankyou.html"> -->
       </form>
 
     </section>
