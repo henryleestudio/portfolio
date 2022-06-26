@@ -175,7 +175,6 @@ li a:link {
 
 .colorOverlay {
   background: #55CAF4;
-  opacity: .3;
   position: relative;
   width: 100%;
   height: 100%;
@@ -188,9 +187,11 @@ li a:link {
   height: 396px;
   margin-left: 46.5rem;
   margin-top: -54rem;
-  background-image: url(../img/team-color.JPG);
+  background-image: url(../img/aw-bowl.gif);
   background-size: cover;
   border-radius: 1px;
+  background-position: bottom;
+  opacity: .7;
 }
 
 #aboutTxtBlock {
