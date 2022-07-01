@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use(express.static('public'))
 
-app.listen(4444, function() {
+app.listen(process.env.PORT || 4444) {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, 
         (error, client) => {
         if(error) {
