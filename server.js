@@ -5,8 +5,8 @@ const MongoClient = require('mongodb').MongoClient
 
 var db
 
-const url = 'mongodb+srv://henrylee:truthandlight@portfoliocluster.gxhhgea.mongodb.net/?retryWrites=true&w=majority'
-const dbName = 'portfolioWebsite'
+// const url = 'mongodb+srv://henrylee:truthandlight@portfoliocluster.gxhhgea.mongodb.net/?retryWrites=true&w=majority'
+// const dbName = 'portfolioWebsite'
 
 
 app.set('view engine', 'ejs')
@@ -27,14 +27,17 @@ app.listen(process.env.PORT || 4444)
 //     });
 // }); 
 
-app.get('/', (req, res) => {
-    db.collection('emailForm').find().toArray((err, result) => {
-        if (err) return console.log(err)
-        console.log({words: result})
-        res.render('index.ejs', {words: result})
-      })
-    
-})
+app.get('/', function(req, res) {
+    res.render('index.ejs');
+});
+
+// app.get('/', (req, res) => {
+//     db.collection('emailForm').find().toArray((err, result) => {
+//         if (err) return console.log(err)
+//         console.log({words: result})
+//         res.render('index.ejs', {words: result})
+//       })   
+// })
 
 // app.post('/checkWord', (req, res) => {
 //   console.log(req.body.word)
