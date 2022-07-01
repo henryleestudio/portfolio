@@ -1,0 +1,1279 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* color pallet: #55CAF4 cestial blue
+                   #060809 dark grey
+                   #FF000A red */
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: #060809;
+    color: white;
+    /* position: relative; */
+  }
+  
+  .border {
+    border: 1px solid white;
+  }
+  
+  
+  header {
+        width: 100%;
+        height: 70rem;
+  }
+  
+  
+  /* header {
+    height: 520px;
+    background-image: url(img/portfolio-header-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 87%;
+    background-position-x: -20px;
+    padding-top: 40px;
+    margin-bottom: 190px;
+  } */
+  
+  #headerBackgroundImg {
+    width: 121rem;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 55px;
+    top: 21px;
+    left: 130px;
+  }
+  
+  #profileImg {
+    background-image: url(img/profile-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #55CAF4;
+    width: 290px;
+    height: 370px;
+    margin-left: 125px;
+    position: absolute;
+    left: -2px;
+    top: 48px;
+    border-radius: 1px;
+  }
+  
+  #name {
+    position: absolute;
+    top: 488px;
+    left: 290px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  #headerTxt {
+    font-weight: 400;
+    margin-left: 480px;
+    margin-top: -256px;
+  }
+  
+  #siteTitle {
+    font-size: 3.5rem;
+    position: relative;
+    left: 40px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+  }
+  
+  #tagLine li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-right: 13px;
+    border-right: 1px solid white;
+    padding-right: 16px;
+    font-size: 2rem;
+  }
+  
+  #socialLinks {
+    float: right;
+    list-style: none;
+    font-size: 2.95rem;
+    position: fixed;
+    top: 112px;
+    right: 60px;
+  }
+  
+  .fa-brands {
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  /* This is for the menu option at the bottom of the page #menu
+  
+  nav li {
+    list-style: none;
+    float: left;
+  }
+  
+  This is for the menu option at the bottom of the page #menu {
+    position: relative;
+    top: 342px;
+    left: 338px;
+  } */
+  
+  .menu {
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-bottom: 14px;
+  }
+  
+  .menu li {
+    text-decoration: none;
+  }
+  
+  li a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:visited {
+    color: white;
+    text-decoration: none;
+  }  
+  .menu a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .menu a:active {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu button {
+    margin-bottom: 8px;
+  }
+  
+  #tagLine #lastTag {
+    border: none; 
+  }
+  
+  #connectBut {
+    font-size: 2rem;
+    margin-top: 14px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 5% 12% 5% 12%;
+    position: relative;
+    top: -3px;
+  }
+  
+  .colorOverlay {
+    background: #55CAF4;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    /* z-index: -1; */
+  }
+  
+  #aboutImg {
+    border: 1px solid #55CAF4;
+    width: 598px;
+    height: 396px;
+    margin-left: 46.5rem;
+    margin-top: -54rem;
+    background-image: url(img/aw-bowl.gif);
+    background-size: cover;
+    border-radius: 1px;
+    background-position: bottom;
+  }
+  
+  #aboutTxtBlock {
+    width: 75rem;
+    z-index: 1;
+    margin-left: -273px;
+    margin-top: 13.8rem;
+  }
+  
+  #aboutTxtBlock p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+  }
+  
+  #quoteSec p {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-style: italic;
+    width: 49rem;
+    line-height: 77px;
+    z-index: 5;
+    margin-left: 90px;
+    margin-top: -6rem;
+    /* position: relative; */
+  }
+  
+  #quoteOne {
+    font-size: 12rem;
+    font-style: italic;
+    font-family: 'Spirax', cursive;
+    float: left;
+    margin-left: 31px;
+    margin-top: -30px;
+    position: relative;
+  }
+  
+  #quoteTwo {
+    font-size: 12rem;
+    position: relative;
+    top: -15rem;
+    left: 33rem;
+    font-style: italic;
+    font-family: 'Spirax', cursive;
+    z-index: 5;
+  }
+  
+  #theArtwearGallery {
+    width: 87rem;
+    margin-top: 3rem;
+    margin-left: 21.7rem;
+  }
+  
+  #theArtwearGallery p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+  }
+  
+  #theArtwearGalleryMainImg {
+    background-image: url(img/aw-bbc-1.png);
+    height: 345px;
+    width: 601px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 16px;
+    left: 290px;
+    border: 1px solid;
+  }
+  
+  #titleOne {
+    background-color: #55CAF4;
+    position: relative;
+    top: -45px;
+    left: 500px;
+    display: inline;
+    font-size: 1.9rem;
+    padding: 0.1%;
+  }
+  
+  #shortDisOne {
+    background-color: #55CAF4;
+    position: relative;
+    top: -81px;
+    left: 438px;
+    width: 212px;
+    height: 80px;
+    padding: 1%;
+    z-index: 10;
+  }
+
+  .tech {
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+  
+  #portfolio {
+    text-align: center;
+  }
+  
+  #portfolioRule {
+    margin-top: -2.9rem;
+  }
+  
+  #featOneTxtBack {
+    width: 374px;
+    background-color: #55caf4ba;
+    position: relative;
+    top: 280px;
+    left: 470px;
+    padding: 0.1% 1% 0.1% 1%;
+    border-radius: 2px;
+  }
+  
+  #featTwoTxtBack {
+    width: 374px;
+    background-color: #55caf4ba;
+    position: relative;
+    top: 490px;
+    left: 270px;
+    padding: 0.1% 1% 0.1% 1%;
+    border-radius: 2px;
+  }
+  
+  .portfolioThumb {
+    border: 1px solid white;
+    width: 225px;
+    height: 200px;
+    float: left;
+    margin-left: 60px;
+  }
+  
+  #connectRule {
+    margin-top: -3.2rem;
+  }
+  
+  #connect {
+    margin-top: 10rem;
+    text-align: center;
+  }
+  
+  .connectSec {
+    margin-top: 33px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .connectSec button {
+    padding: 1.7% 0.2% 1.7% 0.2%;
+    color: white;
+    background: #060809;
+    border: 1px solid white;
+    border-radius: 1px;
+    width: 10rem;
+  }
+  
+  .rule {
+    border-bottom: .25px solid white;
+  }
+  
+  #interestTitle {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  input, select, textarea {
+    padding: 3%;
+    font-size: 1.6rem;
+    background: #060809;
+    border: 1px solid white;
+    border-radius: 1px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2rem;
+  }
+  
+  form {
+    margin-bottom: 2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* #firstNameInput {
+    float: left;
+    margin-left: 50.3rem;
+    width: 195px;
+  } */
+  
+  .subjectInput {
+    width: 300px;
+  }
+  
+  .messageInput {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .input {
+    width: 484px;
+    margin-bottom: 1.5rem;
+  }
+  
+  h5 {
+    position: relative;
+    right: 316px;
+    top: 22px;
+    float: right;
+    font-size: 1.2rem;
+  }
+  
+  #footerLogo {
+    width: 55px;
+    width: 55px;
+    position: relative;
+    top: 70px;
+    left: 130px;
+  }
+  
+  footer ul {
+    position: relative;
+    right: 70px;
+  }
+  
+  footer li {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+  }
+  
+  footer #lastTag {
+    border: none;
+  }
+  
+  #portfolio span {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  /* #projectOneSec {
+    position: relative;
+  } */
+  
+  .projectTitle {
+    margin-top: 3rem;
+    margin-left: -18.5rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .projectDescription {
+    width: 75rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-align: left;
+    margin: auto;
+    margin-top: 1.7rem;
+    /* margin-left: 34.4rem; */
+  }
+  
+  #projectOneDescription {
+    margin-top: 1.7rem;
+    /* margin-left: 34.4rem; */
+  }
+  
+  #projectTwoTitle {
+    margin-top: 100px;
+  }
+  
+  #projectTwoDescription {
+    top: 92.1rem;
+  }
+  
+  #projectThreeTitle {
+    top: 92.5rem;
+  }
+  
+  #projectThreeDescription {
+    top: 131.2rem;
+  }
+  
+  #projectFourTitle {
+    top: 131.7rem;
+  }
+  
+  #projectFourDescription {
+    top: 170.4rem;
+  }
+  
+  #projectFiveTitle {
+    top: 170.5rem;
+  }
+  
+  #projectFiveDescription {
+    top: 212.8rem;
+  }
+  
+  #featImgOne {
+    top: 5.3rem;
+    width: 90rem;
+  }
+  
+  #featImgTwo {
+    /* position: absolute; */
+    top: 280rem;
+    width: 90rem;
+  }
+  
+  #featImgThree {
+    /* position: absolute; */
+    top: 340rem;
+    width: 90rem;
+  }
+  
+  #featImgFour {
+    /* position: absolute; */
+    top: 399.7rem;
+    width: 90rem;
+  }
+  
+  #featImgFive {
+    /* position: absolute; */
+    top: 464.9rem;
+    width: 90rem;
+  }
+  
+  .projectTxtBox {
+    display: inline;
+  }
+  
+  .secTitle {
+      color: #55CAF4;
+      font-size: 2.8rem;
+      margin-top: 180px;
+      /* margin-left: 404.2px; */
+      font-weight: 300;
+      display: inline;
+  }
+  
+  footer {
+    height: 10rem;
+  }
+  
+  /* New navigation  */
+  
+  .nav-header {
+    /* position: fixed; */
+    top: 680px;
+    width: 100%;
+    z-index: 5;
+    /* opacity: 0.9; */
+    /* height: 100px; */
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .nav-container {
+    width: 1600px;
+    margin: auto;
+  }
+  
+  .nav-container a {
+    color: #ffffff;
+    /* font-size: 1rem; */
+    text-decoration: none;
+  }
+  
+  .subcontainer {
+    width: 85%;
+    margin: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+  }
+  
+  .nav-menu {
+    display: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* color: #55CAF4; */
+    left: 524px;
+    position: absolute;
+    /* border: 1px solid; */
+    padding: 7px 14px 7px 14px;
+    font-size: 1.80rem;
+    background: #060809c7;
+    border-radius: 4px;
+  }
+  
+  .nav-branding {
+    font-size: 2rem;
+    display: none;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    background: #55caf4a3;
+    padding: 20px;
+    border-radius: 1px;
+    margin-top: -100px;
+    z-index: 5;
+  }
+  
+  .bar {
+    display: block;
+    width: 23px;
+    height: 5px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background: white;
+    font-size: 1.80rem;
+    border-radius: 4px;
+  }
+  
+  .rule {
+    display: block;
+    margin-left: 10.5rem;
+    width: 10rem;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .copyRight {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  .about {
+    margin-top: 15rem;
+  }
+  
+  .title {
+    color: #55CAF4;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 6rem;
+    margin-left: -8.2rem;
+    text-align: center;
+  }
+  
+  #connectTitle {
+    margin-left: -285px;
+  }
+
+    /* carousel */
+
+  .carousel-item {
+    height: 50vh;
+    min-width: 100%;
+  }
+
+  .bg {
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-2 {
+    /* background-image: url(img/cropped-venture-mockups.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-3 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-4 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-5 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-6 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-7 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-8 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-9 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-10 {
+    /* background-image: url(img/venture-mockups-3.png); */
+    height: 100%;
+    width: 90rem;
+  }
+
+  .bg-1, .bg-2, .bg-3, .bg-4 {
+    background-size: cover;
+  }
+
+  .carousel-caption {
+      bottom: 220px;
+      z-index: 2;
+    }
+
+    .carousel-caption h5 {
+      font-size: 85px;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      margin-top: 25px;
+    }
+
+    .carousel-caption p {
+      width: 70%;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.9;
+    }
+
+    .carousel-caption a {
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 8px 20px;
+      display: inline-block;
+      color: #000;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+
+    .carousel-inner::before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      /* background: rgba(0, 0, 0, 0.6); */
+      z-index: 1;
+    }
+
+    .carousel-inner {
+      width: 80%;
+      display: block;
+      margin: auto;
+      z-index: -1;
+    }
+
+    .carousel-indicator {
+      bottom: 65px;
+      z-index: -1;
+    }
+
+    .carousel-indicator button {
+      width: 100% !important;
+    }
+
+    .carousel {
+      display: block;
+      margin: auto;
+      width: 85%;
+      margin-bottom: 6rem;
+    }
+
+    .carousel-2 {
+      display: block;
+      margin: auto;
+      width: 85%;
+      margin-bottom: 6rem;
+    }
+
+    #portfolio .featImg {
+      width: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .carousel-indicators {
+      bottom: -5rem;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .carousel-caption {
+        bottom: 350px;
+      }
+
+      .carousel-caption h5 {
+        font-size: 65px;
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .carousel-caption {
+        bottom: 165px;
+      }
+
+      .carousel-caption h5 {
+        font-size: 25px;
+        width: 100%;
+      }
+
+      .carousel-caption p {
+        font-size: 12px;
+        width: 100%;
+      }
+
+      .carousel {
+        width: 100%;
+      }
+    }
+
+  
+  @media(max-width: 1600px) {
+    .nav-container {
+      width: 100%;
+    }
+  }
+  
+  /* header {
+    margin-top: -628px;
+  } */
+  
+  @media(max-width:1420px) {
+    /* #portfolioRule, #connectRule {
+      width: 29rem;
+    } */
+  }
+  
+  @media(max-width:1280px) {
+    .hamburger{
+      display: block;
+    }
+  
+    .nav-menu {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(12px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 0px;
+      gap: 0;
+      flex-direction: column;
+      background: #000000b8;
+      width: 100%;
+      text-align: center;
+      margin: 0px;
+      /* transition: 0.3s; */
+    }
+  
+  .nav-item {
+    margin: 16px 0;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    height: 100vh;
+    text-align: left;
+    padding-top: 7rem;
+    padding-left: 25%;
+    /* z-index: 5; */
+  }
+  
+  #connectBut {
+    padding: 1% 1% 1% 1%;
+  }
+  }
+  
+  @media(max-width:1158px) {
+  
+    html {
+      font-size: 56.5%;
+  }
+  
+  #headerTxt {
+    margin-left: 416px;
+  }
+  
+  #aboutTxtBlock {
+    margin-top: 21.8rem;
+    width: 85.2rem;
+  }
+  
+  #aboutTxtBlock p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.2rem;
+  }
+  }
+  
+  @media (max-width:1000px) {
+    
+    #headerBackgroundImg {
+      width: 100%;
+  }
+  
+    #siteTitle {
+      left: -33rem;
+      font-weight: 400;
+      display: inline;
+      font-size: 5.5rem;
+  }
+  
+    #tagLine {
+      margin-left: -37.1rem;
+  }
+  
+    #tagLine li {
+      font-size: 2.25rem;
+    }
+  
+    #headerTxt {
+      font-weight: 400;
+      position: absolute;
+      top: 303px;
+  }
+  
+    #aboutTxtBlock {
+      margin-top: 52rem;
+      width: 55.2rem;
+      margin-left: -32rem;
+  }
+  
+    #profileImg {
+      background-image: url(img/profile-pic.jpg);
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #55CAF4;
+      width: 652px;
+      height: 760px;
+      margin-left: 125px;
+      /* position: absolute; */
+      left: -2px;
+      top: 22rem;
+      border-radius: 4px;
+    }
+  
+    #aboutImg {
+      width: 100%;
+      margin-left: 0px;
+    }
+  
+    /* #theArtwearGallery {
+      width: 81rem;
+    } */
+  
+    #theArtwearGallery p {
+      margin-left: -16rem;
+      font-size: 2.25rem;
+      line-height: 2.9rem;
+      letter-spacing: 0.3rem;
+    }
+  
+    #quoteSec p {
+      width: 74rem;
+    }
+  
+    #aboutTxtBlock {
+      margin-top: 98.4rem;
+    }
+  
+    #aboutTxtBlock p {
+      font-size: 2.25rem;
+      line-height: 2.9rem;
+      letter-spacing: 0.3rem;
+      width: 81rem;
+      margin-left: -14rem;
+    }
+  
+    header {
+      height: 143rem;
+    }
+  
+    #quoteOne {
+      z-index: 2;
+    }
+  
+    #quoteTwo {
+      left: 50rem;
+    }
+  
+    #aboutImg {
+      margin-top: -60.2rem;
+    }
+  }
+  
+  @media (max-width:1000px) {
+    #profileImg{
+      width: 480px;
+      height: 550px;
+      margin-top: -7.4rem;
+    }
+  
+    #quoteSec {
+      margin-top: 3.5rem;
+    }
+  
+    #quoteOne {
+      margin-top: 10px;
+    }
+  
+    #quoteTwo {
+      left: 41rem;
+      top: -11.9rem;
+    }
+  
+    #tagLine li {
+      font-size: 1.75rem;
+    }
+  
+    #siteTitle {
+      font-size: 3.5rem;
+    }
+  
+    #aboutTxtBlock {
+      margin-top: 68.7rem;
+    }
+  
+    #aboutTxtBlock p {
+      width: 56rem;
+    }
+  
+    .about {
+      margin-top: -41rem;
+    }
+  
+    #quoteSec p {
+      width: 63rem;
+      top: 3rem;
+      position: relative;
+    }
+  
+    #aboutImg {
+      margin-top: -60.2rem;
+    }
+  
+    #theArtwearGallery {
+      width: 50rem;
+    }
+  
+    .rule {
+      margin-left: 10.5rem;
+    }
+  
+    #portfolio .featImg {
+      width: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    .projectDescription {
+    width: 70rem;
+    }
+  }
+  
+  @media (max-width:697px) {
+    /* html {
+      font-size: 40%;
+    } */
+  
+    #profileImg {
+        width: 320px;
+        height: 390px;
+        margin-top: -7.4rem;
+    }
+  
+    #tagLine li {
+      font-size: 1.75rem;
+    }
+  
+    #siteTitle {
+      font-size: 3.5rem;
+    }
+  
+    #aboutTxtBlock {
+      margin-top: 68.7rem;
+    }
+  
+    #aboutTxtBlock p {
+      width: 53rem;
+    }
+  
+    .about {
+      margin-top: -41rem;
+    }
+  
+    #quoteSec p {
+      width: 63rem;
+    }
+  
+    #aboutImg {
+      margin-top: -60.2rem;
+    }
+  
+    .rule {
+      margin-left: 5.7rem;
+    }
+  
+    #portfolio .featImg {
+      width: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    .projectDescription {
+      width: 57rem;
+    }
+
+    .carousel {
+      width: 100%;
+    }
+
+    .carousel-inner {
+      width: 100%;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(5px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-5px) rotate(-45deg);
+    }
+  }
+  
+  @media (max-width:697px) {
+  
+    html {
+      font-size: 40%;
+    }
+
+    #profileImg {
+        background-image: url(img/profile-pic.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #55CAF4;
+        width: 320px;
+        height: 390px;
+        margin-left: 45px;
+        /* position: absolute; */
+        top: 22rem;
+        border-radius: 4px;
+      }
+
+      #headerTxt {
+        margin-left: 253px;
+    }
+
+    #aboutTxtBlock p {
+        margin-left: -1rem;
+    }
+
+    #siteTitle {
+        left: -32.9rem;
+        top: -4rem;
+        font-weight: 400;
+        display: inline;
+        font-size: 4rem;
+        width: 10rem;
+    }
+
+    #tagLine {
+        margin-left: -39.1rem;
+        margin-top: -3rem;
+        width: 63rem;
+    }
+
+    .hamburger {
+        padding: 3px;
+    }
+
+    .bar {
+        width: 19px;
+        height: 1px;
+        margin: 4px 0;
+    }
+
+    #quoteSec p {
+        width: 49rem;
+        line-height: 51px;
+        margin-left: 68px;
+        top: 15rem;
+    }
+
+    #theArtwearGallery p {
+        margin-left: 0rem;
+        width: 95%;
+    }
+
+    .connectSec {
+        margin-left: 0px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    #theArtwearGallery {
+        margin-left: 6.7rem;
+        width: 90%;
+    }
+
+    #quoteOne {
+      margin-top: 53px;
+    }
+
+    #quoteTwo {
+        left: 34rem;
+        top: 2.4rem;
+    }
+    .rule {
+      display: none;
+    }
+
+    #projectTwoTitle {
+      margin-top: 3rem;
+    }
+
+    form {
+      width: 90%;
+    }
+
+    .submitBut {
+      font-size: 2rem;
+    }
+  }
+  
+  /* color pallet: #55CAF4 cestial blue
+                   #060809 dark grey
+                   #FF000A red */
+  
