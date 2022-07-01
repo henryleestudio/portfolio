@@ -14,16 +14,18 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use(express.static('public'))
 
-app.listen(process.env.PORT || 4444) {
-    MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, 
-        (error, client) => {
-        if(error) {
-            throw error;
-        }
-        db = client.db(dbName);
-        console.log("Connected to `" + dbName + "`, Port: 4444");
-    });
-}); 
+app.listen(process.env.PORT || 4444) 
+
+// {
+//     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, 
+//         (error, client) => {
+//         if(error) {
+//             throw error;
+//         }
+//         db = client.db(dbName);
+//         console.log("Connected to `" + dbName + "`, Port: 4444");
+//     });
+// }); 
 
 app.get('/', (req, res) => {
     db.collection('emailForm').find().toArray((err, result) => {
