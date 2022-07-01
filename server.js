@@ -28,7 +28,7 @@ app.listen(process.env.PORT || 4444)
 // }); 
 
 app.get('/', function(req, res) {
-    res.render('index.ejs');
+    res.render('views/index.ejs');
 });
 
 // app.get('/', (req, res) => {
