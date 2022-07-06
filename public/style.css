@@ -18,6 +18,15 @@
     /* position: relative; */
   }
 
+  .projectLink {
+    display: block;
+    color: #55CAF4;
+    font-size: 1.7rem;
+    margin-left: -26.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
   .wistia_responsive_padding {
     padding: 0 0 0 0;
     display: flex;
