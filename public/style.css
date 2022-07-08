@@ -63,6 +63,41 @@
   #headerBackgroundImg {
     width: 121rem;
   }
+
+  #headerBackgroundImgDigitalCard {
+    width: 100%;
+    /* float: left; */
+  }
+
+  #profileCirclePic {
+    width: 27rem;
+    margin-top: -17rem;
+    position: absolute;
+    top: 32rem;
+    left: 5rem;
+  }
+
+  .infoBlock {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  #infoSection {
+    position: absolute;
+    top: 28rem;
+    left: -1.6rem;
+  }
+
+  #infoSection a {
+    color: white;
+  }
+
+  #handle {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 17.2rem;
+    margin-left: 4.6rem;
+  }
   
   .logo {
     position: absolute;
@@ -1291,6 +1326,36 @@
 
     .submitBut {
       font-size: 2rem;
+    }
+
+    #profileCirclePic {
+      width: 27rem;
+      margin-top: -17rem;
+      position: absolute;
+      top: 32rem;
+      left: 5rem;
+    }
+  
+    .infoBlock {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+  
+    #infoSection {
+      margin-top: 17rem;
+      margin-left: 17rem;
+      /* width: 100%; */
+    }
+  
+    #infoSection a {
+      color: white;
+    }
+  
+    #handle {
+      position: absolute;
+      font-size: 3rem;
+      margin-top: 17.2rem;
+      margin-left: 4.6rem;
     }
   }
   

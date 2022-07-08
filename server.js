@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
+const path = require('path')
 const MongoClient = require('mongodb').MongoClient
 
 var db
@@ -14,23 +15,6 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use(express.static('public'))
 
-// app.listen(process.env.PORT || 4444) 
-
-app.get('/', function(req, res) {
-    res.render('index.ejs');
-});
-
-// app.listen(4444, function() {
-//     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, 
-//         (error, client) => {
-//         if(error) {
-//             throw error;
-//         }
-//         db = client.db(dbName);
-//         console.log("Connected to `" + dbName + "`, Port: 4444");
-//     });
-// }); 
-
 app.listen(process.env.PORT || 4444, function() {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, 
         (error, client) => {
@@ -41,6 +25,14 @@ app.listen(process.env.PORT || 4444, function() {
         console.log("Connected to `" + dbName + "`, Port: 4444");
     });
 }) 
+
+app.get('/', function(req, res) {
+    res.render('index.ejs');
+}); 
+
+app.get('/digitalCard', function(req, res) {
+    res.render('digitalCard.ejs');
+  });
 
 // app.get('/', (req, res) => {
 //     db.collection('emailForm').find().toArray((err, result) => {
