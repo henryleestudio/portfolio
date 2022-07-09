@@ -85,7 +85,7 @@
   #infoSection {
     position: absolute;
     top: 44.9rem;
-    left: -1.6rem;
+    left: 50.3rem;
   }
 
   #infoSection a {
@@ -1121,6 +1121,10 @@
     #tagLine li {
       font-size: 1.75rem;
     }
+
+    #infoSection {
+      left: 13.4rem;
+    }
   
     #siteTitle {
       font-size: 3.5rem;
@@ -1351,7 +1355,7 @@
     }
   
     #infoSection {
-      margin-left: 9rem;
+      left: 6.4rem;
     }
   
     #infoSection a {
