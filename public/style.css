@@ -253,7 +253,7 @@
     height: 396px;
     margin-left: 46.5rem;
     margin-top: -54rem;
-    background-image: url(img/aw-bowl.gif);
+    background-image: url(img/aw-exhibition-bowl-animated.gif);
     background-size: cover;
     border-radius: 1px;
     background-position: bottom;
@@ -291,14 +291,14 @@
     font-family: 'Spirax', cursive;
     float: left;
     margin-left: 31px;
-    margin-top: -30px;
+    margin-top: -46px;
     position: relative;
   }
   
   #quoteTwo {
     font-size: 12rem;
     position: relative;
-    top: -15rem;
+    top: -12rem;
     left: 33rem;
     font-style: italic;
     font-family: 'Spirax', cursive;
@@ -1110,12 +1110,12 @@
     }
   
     #quoteOne {
-      margin-top: 10px;
+      margin-top: -10px;
     }
   
     #quoteTwo {
       left: 41rem;
-      top: -11.9rem;
+      top: -9.9rem;
     }
   
     #tagLine li {
